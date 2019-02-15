@@ -1,0 +1,116 @@
+body {
+    background-image: url("../images/palm-leaf.png");
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+.container {
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia,
+        'Times New Roman',
+        Times,
+        serif;
+    width: 270px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+#navbarr {
+    color: #4aaaa5;
+    border-bottom: 5px solid #cccccc;
+    background-color: #ffffff;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+}
+
+.navbar-nav {
+    margin-right: 10%;
+}
+
+
+
+
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 270px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+
+.navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 10%;
+    margin-top: -40px;
+
+}
+
+#middle {
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #cccccc;
+}
+
+.btn {
+    margin: 10px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+}
+
+#profile {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.thumbnail {
+    margin: 10px;
+}
+
+.caption {
+    clear: both;
+    position: absolute;
+    bottom: 20px;
+    width: 87%;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5 !important;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    text-align: center;
+    color: #cccccc;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
