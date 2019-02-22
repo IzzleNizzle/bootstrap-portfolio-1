@@ -90,13 +90,14 @@ h2 {
 
 .thumbnail {
     margin: 10px;
+    position: relative;
 }
 
 .caption {
     clear: both;
     position: absolute;
     bottom: 20px;
-    width: 87%;
+    width: 100%;
     text-align: center;
     color: #ffffff;
     background: #4aaaa5 !important;
